@@ -1,0 +1,45 @@
+.duden-error-text {
+	margin-bottom: 8px;
+}
+
+.duden-original {
+	color: var(--text-error);
+	font-weight: bold;
+}
+
+.duden-proposals .setting-item {
+	border: none;
+	padding: 4px 0;
+}
+
+.duden-actions {
+	margin-top: 16px;
+	display: flex;
+	gap: 8px;
+}
+
+/* Editor highlights */
+.duden-highlight {
+	text-decoration: underline wavy;
+	text-underline-offset: 3px;
+}
+
+.duden-highlight-orth {
+	text-decoration-color: var(--color-red);
+}
+
+.duden-highlight-gram {
+	text-decoration-color: var(--color-blue);
+}
+
+.duden-highlight-style {
+	text-decoration-color: var(--color-yellow);
+}
+
+.duden-highlight-term {
+	text-decoration-color: var(--color-purple);
+}
+
+.duden-highlight-active {
+	background-color: rgba(var(--color-orange-rgb), 0.25);
+}

@@ -1,0 +1,23 @@
+# Build output
+main.js
+main.js.map
+
+# Dependencies
+node_modules/
+
+# Test vault — not relevant for the public plugin repo
+PluginTest/
+
+# Project management (internal)
+TODO.md
+DONE.md
+BUGS.md
+PROMPT.md
+CLAUDE.md
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

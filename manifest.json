@@ -1,0 +1,9 @@
+{
+	"id": "duden-mentor",
+	"name": "Duden Mentor",
+	"version": "0.1.0",
+	"minAppVersion": "1.0.0",
+	"description": "Spell and grammar checking via the Duden Mentor API.",
+	"author": "Mario",
+	"isDesktopOnly": false
+}
