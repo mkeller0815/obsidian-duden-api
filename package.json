@@ -8,6 +8,7 @@
 		"build": "tsc --noEmit -p tsconfig.json && node esbuild.config.mjs production",
 		"lint": "eslint src --ext .ts"
 	},
+	"author": "Mario Keller",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^22.0.0",

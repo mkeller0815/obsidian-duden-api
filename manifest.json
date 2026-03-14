@@ -4,6 +4,7 @@
 	"version": "0.1.0",
 	"minAppVersion": "1.0.0",
 	"description": "Spell and grammar checking via the Duden Mentor API.",
-	"author": "Mario",
+	"author": "Mario Keller",
+	"authorUrl": "https://github.com/mkeller0815",
 	"isDesktopOnly": false
 }
