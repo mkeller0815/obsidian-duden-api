@@ -66,6 +66,16 @@ All corrections are applied when the modal is closed.
 
 Words added via "Add to dictionary" are shown in **Settings → Duden Mentor → Personal dictionary**, where they can also be removed.
 
+## Development
+
+```bash
+npm install
+npm run dev    # watch mode — rebuilds on every change
+npm run build  # production build
+```
+
+By default, `npm run dev` outputs directly to `PluginTest/.obsidian/plugins/duden-mentor/` (relative to the repo root). Create an Obsidian vault in a `PluginTest/` folder next to the source, or change the `outDir` path in `esbuild.config.mjs` to point to any vault on your machine.
+
 ## Highlight colors
 
 | Color | Type |
